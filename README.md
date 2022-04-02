@@ -1,4 +1,4 @@
-# pixiejarsnftapi
+# PixieJarsNFT-API
 
 Created with the Graph Protocol
 
