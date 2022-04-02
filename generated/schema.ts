@@ -27,6 +27,21 @@ export class Token extends Entity {
     this.set("date", Value.fromBigInt(BigInt.zero()));
     this.set("owner", Value.fromString(""));
     this.set("updatedAtTimeStamp", Value.fromBigInt(BigInt.zero()));
+    this.set("background", Value.fromString(""));
+    this.set("jar", Value.fromString(""));
+    this.set("floor", Value.fromString(""));
+    this.set("skin", Value.fromString(""));
+    this.set("earrings", Value.fromString(""));
+    this.set("faceAccessory", Value.fromString(""));
+    this.set("outfit", Value.fromString(""));
+    this.set("hair", Value.fromString(""));
+    this.set("shoes", Value.fromString(""));
+    this.set("eyes", Value.fromString(""));
+    this.set("eyebrows", Value.fromString(""));
+    this.set("lipstick", Value.fromString(""));
+    this.set("jarTag", Value.fromString(""));
+    this.set("companion", Value.fromString(""));
+    this.set("sparkles", Value.fromString(""));
   }
 
   save(): void {
@@ -151,6 +166,141 @@ export class Token extends Entity {
 
   set updatedAtTimeStamp(value: BigInt) {
     this.set("updatedAtTimeStamp", Value.fromBigInt(value));
+  }
+
+  get background(): string {
+    let value = this.get("background");
+    return value!.toString();
+  }
+
+  set background(value: string) {
+    this.set("background", Value.fromString(value));
+  }
+
+  get jar(): string {
+    let value = this.get("jar");
+    return value!.toString();
+  }
+
+  set jar(value: string) {
+    this.set("jar", Value.fromString(value));
+  }
+
+  get floor(): string {
+    let value = this.get("floor");
+    return value!.toString();
+  }
+
+  set floor(value: string) {
+    this.set("floor", Value.fromString(value));
+  }
+
+  get skin(): string {
+    let value = this.get("skin");
+    return value!.toString();
+  }
+
+  set skin(value: string) {
+    this.set("skin", Value.fromString(value));
+  }
+
+  get earrings(): string {
+    let value = this.get("earrings");
+    return value!.toString();
+  }
+
+  set earrings(value: string) {
+    this.set("earrings", Value.fromString(value));
+  }
+
+  get faceAccessory(): string {
+    let value = this.get("faceAccessory");
+    return value!.toString();
+  }
+
+  set faceAccessory(value: string) {
+    this.set("faceAccessory", Value.fromString(value));
+  }
+
+  get outfit(): string {
+    let value = this.get("outfit");
+    return value!.toString();
+  }
+
+  set outfit(value: string) {
+    this.set("outfit", Value.fromString(value));
+  }
+
+  get hair(): string {
+    let value = this.get("hair");
+    return value!.toString();
+  }
+
+  set hair(value: string) {
+    this.set("hair", Value.fromString(value));
+  }
+
+  get shoes(): string {
+    let value = this.get("shoes");
+    return value!.toString();
+  }
+
+  set shoes(value: string) {
+    this.set("shoes", Value.fromString(value));
+  }
+
+  get eyes(): string {
+    let value = this.get("eyes");
+    return value!.toString();
+  }
+
+  set eyes(value: string) {
+    this.set("eyes", Value.fromString(value));
+  }
+
+  get eyebrows(): string {
+    let value = this.get("eyebrows");
+    return value!.toString();
+  }
+
+  set eyebrows(value: string) {
+    this.set("eyebrows", Value.fromString(value));
+  }
+
+  get lipstick(): string {
+    let value = this.get("lipstick");
+    return value!.toString();
+  }
+
+  set lipstick(value: string) {
+    this.set("lipstick", Value.fromString(value));
+  }
+
+  get jarTag(): string {
+    let value = this.get("jarTag");
+    return value!.toString();
+  }
+
+  set jarTag(value: string) {
+    this.set("jarTag", Value.fromString(value));
+  }
+
+  get companion(): string {
+    let value = this.get("companion");
+    return value!.toString();
+  }
+
+  set companion(value: string) {
+    this.set("companion", Value.fromString(value));
+  }
+
+  get sparkles(): string {
+    let value = this.get("sparkles");
+    return value!.toString();
+  }
+
+  set sparkles(value: string) {
+    this.set("sparkles", Value.fromString(value));
   }
 }
 

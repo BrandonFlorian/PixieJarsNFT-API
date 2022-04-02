@@ -11,7 +11,23 @@ type Token @entity {
   date: BigInt!
   owner: User!
   updatedAtTimeStamp:  BigInt!
-  #attributes: 
+  background: String!
+  jar: String!
+  floor: String!
+  skin: String!
+  earrings: String!
+  faceAccessory: String!
+  outfit: String!
+  hair: String!
+  shoes: String!
+  eyes: String!
+  eyebrows: String!
+  lipstick: String!
+  jarTag: String!
+  companion: String!
+  sparkles: String!
+
+  
 }
 
 type User @entity{
