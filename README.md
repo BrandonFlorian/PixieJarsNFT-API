@@ -59,3 +59,37 @@ https://api.thegraph.com/subgraphs/name/brandonflorian/pixiejarsnftapi
   }
 }
 ```
+
+
+#### Mushroom Floor query
+
+```graphql
+{
+  tokens(where: {floor: "Mushrooms"}) {
+    id
+    tokenID
+    description
+    image
+    tokenURI
+    ipfsURI
+    name
+    dna
+    date
+    background
+    jar
+    floor
+    skin
+    earrings
+    faceAccessory
+    outfit
+    hair
+    shoes
+    eyes
+    eyebrows
+    lipstick
+    jarTag
+    companion
+    sparkles
+  }
+}
+```
