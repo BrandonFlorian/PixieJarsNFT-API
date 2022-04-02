@@ -26,8 +26,9 @@ type Token @entity {
   jarTag: String!
   companion: String!
   sparkles: String!
-
-  
+  weather: String!
+  glasses: String!
+  bracelet: String!
 }
 
 type User @entity{
@@ -41,6 +42,10 @@ type _Schema_ @fulltext(
   algorithm: rank
   include: [{
     entity: "Token",
-    fields: [{name: "name"}, {name: "dna"}]
+    fields: [
+      {name: "name"}, {name: "background"}, {name: "jar"}, {name: "floor"}, {name: "skin"}, {name: "earrings"}, 
+      {name: "faceAccessory"}, {name: "outfit"}, {name: "hair"}, {name: "shoes"}, {name: "eyes"}, {name: "eyebrows"}, {name: "lipstick"}, 
+      {name: "jarTag"}, {name: "companion"}, {name: "sparkles"}, {name: "weather"}, {name: "glasses"}, {name: "bracelet"}
+    ]
   }]
 )

@@ -42,6 +42,9 @@ export class Token extends Entity {
     this.set("jarTag", Value.fromString(""));
     this.set("companion", Value.fromString(""));
     this.set("sparkles", Value.fromString(""));
+    this.set("weather", Value.fromString(""));
+    this.set("glasses", Value.fromString(""));
+    this.set("bracelet", Value.fromString(""));
   }
 
   save(): void {
@@ -301,6 +304,33 @@ export class Token extends Entity {
 
   set sparkles(value: string) {
     this.set("sparkles", Value.fromString(value));
+  }
+
+  get weather(): string {
+    let value = this.get("weather");
+    return value!.toString();
+  }
+
+  set weather(value: string) {
+    this.set("weather", Value.fromString(value));
+  }
+
+  get glasses(): string {
+    let value = this.get("glasses");
+    return value!.toString();
+  }
+
+  set glasses(value: string) {
+    this.set("glasses", Value.fromString(value));
+  }
+
+  get bracelet(): string {
+    let value = this.get("bracelet");
+    return value!.toString();
+  }
+
+  set bracelet(value: string) {
+    this.set("bracelet", Value.fromString(value));
   }
 }
 

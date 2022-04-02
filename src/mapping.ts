@@ -105,6 +105,15 @@ export function handleTransfer(event: TransferEvent): void {
               if (trait == "Sparkles") {
                 token.sparkles = value
               }
+              if (trait == "Weather") {
+                token.weather = value
+              }
+              if (trait == "Glasses") {
+                token.glasses = value
+              }
+              if (trait == "Bracelet") {
+                token.bracelet = value
+              }
             }
           }
         } 
