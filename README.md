@@ -11,7 +11,7 @@ You can perform relational queries, full text search, sorting, and filtering usi
 
 ### Using the subgraph
 
-The subgraph is located in the Graph Explorer at [https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi] (https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi)
+The subgraph is located in the Graph Explorer at [https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi](https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi)
 
 You can use it in your app by accessing this API endpoint:
 
