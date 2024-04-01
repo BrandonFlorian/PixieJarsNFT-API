@@ -8,9 +8,11 @@ You can perform relational queries, full text search, sorting, and filtering usi
 
 ### Using the subgraph
 
-The subgraph was previously located in the Graph Explorer at [https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi](https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi) but has been inactive for some time. 
+The subgraph was previously located in the Graph Explorer at [https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi](https://thegraph.com/hosted-service/subgraph/brandonflorian/pixiejarsnftapi) but has been inactive for some time.
 
-You can use it in your app by accessing this API endpoint:
+If you have a use for this and would like it reactivated, feel free to contact me. 
+
+You could use it in your app by accessing this API endpoint:
 
 ```markdown
 https://api.thegraph.com/subgraphs/name/brandonflorian/pixiejarsnftapi
